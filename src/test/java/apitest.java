@@ -1,3 +1,4 @@
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.parsing.Parser;
@@ -51,7 +52,7 @@ public class apitest {
             k = 0;
         }
 
-        System.out.println("Most Facts from:  "+users[maxuser]);
+        System.out.println("Most Facts from:  "+users[maxuser]+"."+" He write: "+max+" facts");
     }
 
 }
